@@ -1,0 +1,22 @@
+# Deep Learning Framework
+torch==2.7.0+cu126        # 指定CUDA版本的PyTorch
+torchvision==0.22.0+cu126 # 指定CUDA版本的torchvision
+
+# Data Processing
+datasets==2.14.0          # 用于加载数据集
+numpy==1.23.5            # 数值计算库
+
+# Visualization and Progress
+matplotlib==3.7.2        # 绘图库，用于损失曲线可视化
+tqdm==4.65.0            # 进度条显示
+
+# Development Tools
+pytest==7.4.0           # 用于单元测试
+black==23.3.0           # 代码格式化
+flake8==6.0.0           # 代码检查
+
+# Additional Dependencies
+argparse==1.4.0         # 命令行参数解析
+
+# 注意：对于PyTorch，建议通过以下命令安装指定CUDA版本：
+# pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
