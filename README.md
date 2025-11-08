@@ -1,6 +1,6 @@
-# Transformer Implementation
+# Transformer Implementation(Encoder–Decoder)
 
-This project implements a Transformer model from scratch for sequence-to-sequence tasks. It's developed as part of a deep learning course project.
+This project implements a Transformer model from scratch for sequence-to-sequence tasks. It's developed as part of a LLM course project.
 
 ## Project Structure
 
@@ -91,7 +91,7 @@ python src/train.py \
 
 ### Ablation Studies
 
-Our ablation experiments investigate the impact of different model components and training strategies. To run the full set of ablation experiments:
+The ablation experiments investigate the impact of different model components and training strategies. To run the full set of ablation experiments:
 
 ```bash
 python scripts/ablation_study.py --seed 42
@@ -214,3 +214,4 @@ Main dependencies include:
 - numpy >= 1.23.5
 
 For a complete list, see `requirements.txt`.
+
